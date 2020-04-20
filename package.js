@@ -1,10 +1,10 @@
 Package.describe({
-  name: 'poetic:vrboiler-plate',
-  version: '0.1.0',
+  name: 'shjiaye:vrboiler-plate',
+  version: '0.1.1',
   // Brief, one-line summary of the package.
   summary: 'A small wrapper to a web virtual reality boiler plate page',
   // URL to the Git repository containing the source code for this package.
-  git: 'https://github.com/poetic/poetic-vr-boilerplate',
+  git: 'https://github.com/carrot93/poetic-vr-boilerplate',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
@@ -20,6 +20,7 @@ Package.onUse(function(api) {
                'webvr-boilerplate/js/deps/VRControls.js',
                'webvr-boilerplate/js/deps/VREffect.js',
                'webvr-boilerplate/js/deps/webvr-polyfill.js',
+               'webvr-boilerplate/js/deps/threeGeoJson.js',
                'webvr-boilerplate/build/webvr-manager.js',
                'json-loader-fix.js',
                'scene-manager.js',
@@ -32,5 +33,5 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('poetic:vrboiler-plate');
+  api.use('shjiaye:vrboiler-plate');
 });

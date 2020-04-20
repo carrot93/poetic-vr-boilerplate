@@ -1,3 +1,6 @@
+#Update
+Add threeGeoJson
+
 #DEPRECATED
 As of Meteor 1.3 this package is considered deprecated in favor of [Aframe](https://aframe.io/)
 

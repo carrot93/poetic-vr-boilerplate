@@ -5,4 +5,5 @@
 curl -o js/deps/VRControls.js https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/js/controls/VRControls.js
 curl -o js/deps/VREffect.js https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/js/effects/VREffect.js
 curl -o js/deps/three.js http://threejs.org/build/three.js
+curl -o js/deps/threeGeoJson.js https://raw.githubusercontent.com/jdomingu/ThreeGeoJSON/master/lib/threeGeoJSON.js
 #curl -o js/webvr-polyfill.js https://raw.githubusercontent.com/borismus/webvr-polyfill/master/build/webvr-polyfill.js
