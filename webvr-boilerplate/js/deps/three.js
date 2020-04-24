@@ -22841,7 +22841,7 @@ THREE.WebGLObjects = function ( gl, info ) {
 				var bufferGeometry = new THREE.BufferGeometry().setFromObject( object );
 				geometries[ geometry.id ] = bufferGeometry;
 
-				console.log( 'THREE.WebGLObjects: Converting...', object, bufferGeometry );
+				/* console.log( 'THREE.WebGLObjects: Converting...', object, bufferGeometry );*/
 
 				info.memory.geometries ++;
 
